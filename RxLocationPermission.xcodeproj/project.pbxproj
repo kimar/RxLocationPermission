@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07670483210E1028009AAE2B /* RxLocationPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07670482210E1028009AAE2B /* RxLocationPermission.swift */; };
 		07BF3E89210E0FDD004B922D /* RxLocationPermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF3E7F210E0FDD004B922D /* RxLocationPermission.framework */; };
 		07BF3E8E210E0FDD004B922D /* RxLocationPermissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF3E8D210E0FDD004B922D /* RxLocationPermissionTests.swift */; };
 		07BF3E90210E0FDD004B922D /* RxLocationPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BF3E82210E0FDD004B922D /* RxLocationPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD29EF176A031F6AC597A96 /* Pods_RxLocationPermissionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5BFFD4D33A077F30B46A6B /* Pods_RxLocationPermissionTests.framework */; };
+		C663EA9DDCFE35502C1AED55 /* Pods_RxLocationPermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E322BAAA564E01E7505987 /* Pods_RxLocationPermission.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07670482210E1028009AAE2B /* RxLocationPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLocationPermission.swift; sourceTree = "<group>"; };
 		07BF3E7F210E0FDD004B922D /* RxLocationPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxLocationPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BF3E82210E0FDD004B922D /* RxLocationPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxLocationPermission.h; sourceTree = "<group>"; };
 		07BF3E83210E0FDD004B922D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BF3E88210E0FDD004B922D /* RxLocationPermissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxLocationPermissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BF3E8D210E0FDD004B922D /* RxLocationPermissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLocationPermissionTests.swift; sourceTree = "<group>"; };
 		07BF3E8F210E0FDD004B922D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E322BAAA564E01E7505987 /* Pods_RxLocationPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxLocationPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5BFFD4D33A077F30B46A6B /* Pods_RxLocationPermissionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxLocationPermissionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1189B16FED0DBD8F8F2DE13 /* Pods-RxLocationPermission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLocationPermission.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxLocationPermission/Pods-RxLocationPermission.debug.xcconfig"; sourceTree = "<group>"; };
+		C458DFA6E2B96676F9C84217 /* Pods-RxLocationPermissionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLocationPermissionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxLocationPermissionTests/Pods-RxLocationPermissionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8EC16462D025957D231ABD4 /* Pods-RxLocationPermission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLocationPermission.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxLocationPermission/Pods-RxLocationPermission.release.xcconfig"; sourceTree = "<group>"; };
+		FB88DA003C8D3B0D6FAA578E /* Pods-RxLocationPermissionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLocationPermissionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxLocationPermissionTests/Pods-RxLocationPermissionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C663EA9DDCFE35502C1AED55 /* Pods_RxLocationPermission.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07BF3E89210E0FDD004B922D /* RxLocationPermission.framework in Frameworks */,
+				1FD29EF176A031F6AC597A96 /* Pods_RxLocationPermissionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				07BF3E81210E0FDD004B922D /* RxLocationPermission */,
 				07BF3E8C210E0FDD004B922D /* RxLocationPermissionTests */,
 				07BF3E80210E0FDD004B922D /* Products */,
+				D8F8C5AD6F04106E17A3B091 /* Pods */,
+				B82A1C143DD1AC4FD3B4072F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +85,7 @@
 		07BF3E81210E0FDD004B922D /* RxLocationPermission */ = {
 			isa = PBXGroup;
 			children = (
+				07670482210E1028009AAE2B /* RxLocationPermission.swift */,
 				07BF3E82210E0FDD004B922D /* RxLocationPermission.h */,
 				07BF3E83210E0FDD004B922D /* Info.plist */,
 			);
@@ -84,6 +99,26 @@
 				07BF3E8F210E0FDD004B922D /* Info.plist */,
 			);
 			path = RxLocationPermissionTests;
+			sourceTree = "<group>";
+		};
+		B82A1C143DD1AC4FD3B4072F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08E322BAAA564E01E7505987 /* Pods_RxLocationPermission.framework */,
+				AF5BFFD4D33A077F30B46A6B /* Pods_RxLocationPermissionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F8C5AD6F04106E17A3B091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1189B16FED0DBD8F8F2DE13 /* Pods-RxLocationPermission.debug.xcconfig */,
+				C8EC16462D025957D231ABD4 /* Pods-RxLocationPermission.release.xcconfig */,
+				C458DFA6E2B96676F9C84217 /* Pods-RxLocationPermissionTests.debug.xcconfig */,
+				FB88DA003C8D3B0D6FAA578E /* Pods-RxLocationPermissionTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BF3E93210E0FDD004B922D /* Build configuration list for PBXNativeTarget "RxLocationPermission" */;
 			buildPhases = (
+				821F8D3EB0519CA5D33A90B4 /* [CP] Check Pods Manifest.lock */,
 				07BF3E7A210E0FDD004B922D /* Headers */,
 				07BF3E7B210E0FDD004B922D /* Sources */,
 				07BF3E7C210E0FDD004B922D /* Frameworks */,
@@ -122,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BF3E96210E0FDD004B922D /* Build configuration list for PBXNativeTarget "RxLocationPermissionTests" */;
 			buildPhases = (
+				8D1692FAFE9C35CF1A43E618 /* [CP] Check Pods Manifest.lock */,
 				07BF3E84210E0FDD004B922D /* Sources */,
 				07BF3E85210E0FDD004B922D /* Frameworks */,
 				07BF3E86210E0FDD004B922D /* Resources */,
+				3109F1138521A864F0C40E5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +186,7 @@
 				TargetAttributes = {
 					07BF3E7E210E0FDD004B922D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					07BF3E87210E0FDD004B922D = {
 						CreatedOnToolsVersion = 10.0;
@@ -189,11 +228,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3109F1138521A864F0C40E5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxLocationPermissionTests/Pods-RxLocationPermissionTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxLocationPermissionTests/Pods-RxLocationPermissionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821F8D3EB0519CA5D33A90B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxLocationPermission-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1692FAFE9C35CF1A43E618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxLocationPermissionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07BF3E7B210E0FDD004B922D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07670483210E1028009AAE2B /* RxLocationPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +439,9 @@
 		};
 		07BF3E94210E0FDD004B922D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1189B16FED0DBD8F8F2DE13 /* Pods-RxLocationPermission.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.RxLocationPermission;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +467,9 @@
 		};
 		07BF3E95210E0FDD004B922D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EC16462D025957D231ABD4 /* Pods-RxLocationPermission.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -390,7 +494,9 @@
 		};
 		07BF3E97210E0FDD004B922D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C458DFA6E2B96676F9C84217 /* Pods-RxLocationPermissionTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857XYUU5FE;
 				INFOPLIST_FILE = RxLocationPermissionTests/Info.plist;
@@ -408,7 +514,9 @@
 		};
 		07BF3E98210E0FDD004B922D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB88DA003C8D3B0D6FAA578E /* Pods-RxLocationPermissionTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 857XYUU5FE;
 				INFOPLIST_FILE = RxLocationPermissionTests/Info.plist;
