@@ -30,13 +30,15 @@ extension RxLocationPermission: CLLocationManagerDelegate {
 }
 
 public extension Reactive where Base: CLLocationManager {
-    public func requestAlwaysAuthorization() {
+    public func requestAlwaysAuthorization() -> Observable<CLAuthorizationStatus> {
         let rxLocationPermission = RxLocationPermission()
         rxLocationPermission.locationManager.requestAlwaysAuthorization()
+        return rxLocationPermission.subject.asObservable()
     }
     
-    public func requestWhenInUseAuthorization() {
+    public func requestWhenInUseAuthorization() -> Observable<CLAuthorizationStatus> {
         let rxLocationPermission = RxLocationPermission()
         rxLocationPermission.locationManager.requestWhenInUseAuthorization()
+        return rxLocationPermission.subject.asObservable()
     }
 }
